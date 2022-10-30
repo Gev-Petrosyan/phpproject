@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 25px;
+}
+
+nav {
+    background: transparent !important;
+}
+
+nav .navabar-button {
+    float: right !important;
+    border: none !important;
+}
+
+.offcanvas-title {
+    text-transform: capitalize !important;
+}
+
+form {
+    padding: 40px !important;
+    padding-bottom: 30px !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    width: 600px !important;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+form .group-one {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+form .group-two {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+form span {
+    color: black !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #343a68 !important;
+    border-radius: 0 0 0 0 !important;
+}
+
+form input {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #343a68 !important;
+    border-radius: 0 0 0 0 !important;
+}
+
+form .errors .error-text {
+    color: red;
+    margin-bottom: 0px !important;
+}
+
+form button {
+    margin-top: 15px !important;
+    background-color: #6a93cb;
+    background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+    border-radius: 0 0 0 0 !important;
+    border-radius: 20px 20px 20px 20px !important;
+    border: none !important;
+    width: 250px !important;
+    height: 45px !important;
+}
+
+.regsiter-a {
+    margin-top: 10px;
+}
+
+.regsiter-a a {
+    text-decoration: none;
+}
+
+.gender input {
+    background-color: white !important;
+}
+
+.form-select {
+    border: none !important;
+    border-bottom: 1px solid #343a68 !important;
+    border-radius: 0 0 0 0 !important;
+}
+
+@media (max-width: 1600px) {
+    form {
+        width: 500px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    form {
+        width: 400px !important;
+        padding: 35px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    form {
+        width: 330px !important;
+        padding: 35px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    form {
+        width: 100% !important;
+        padding: 30px !important;
+    }
+    form button {
+        width: 100% !important;
+    }
+}

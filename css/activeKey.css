@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 25px;
+}
+
+nav {
+    background: transparent !important;
+}
+
+nav .navabar-button {
+    float: right !important;
+    border: none !important;
+}
+
+.offcanvas-title {
+    text-transform: capitalize !important;
+}
+
+.table {
+    padding: 40px !important;
+    padding-bottom: 30px !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    width: 600px !important;
+}
+
+.table h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.key {
+    float: left !important;
+}
+
+.list {
+    border: none !important;
+    background-color: #edeef0;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-level p {
+    font-size: 16px;
+    margin-bottom: -15px !important;
+}
+
+.list-code p {
+    font-size: 16px;
+    margin-bottom: 0 !important;
+}
+
+.list-delete a {
+    float: right !important;
+    margin: auto;
+    margin-right: 10px !important;
+    background-color: #dc3545 !important;
+}
+
+@media (max-width: 1600px) {
+    .table {
+        width: 500px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .table {
+        width: 400px !important;
+        padding: 35px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .table {
+        width: 330px !important;
+        padding: 35px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .table {
+        width: 100% !important;
+        padding: 30px !important;
+    }
+}

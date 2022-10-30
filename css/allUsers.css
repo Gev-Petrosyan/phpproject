@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6a93cb;
+    background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+nav {
+    background: transparent !important;
+}
+
+nav .navabar-button {
+    float: right !important;
+    border: none !important;
+}
+
+.offcanvas-title {
+    text-transform: capitalize !important;
+}
+
+.table-users {
+    max-height: 85vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.table-users::-webkit-scrollbar {
+    width: 5px;
+	background-color: transparent;
+}
+
+.table-users::-webkit-scrollbar-thumb {
+	background: #848484;
+	border-radius: 20px;
+}
+
+.table-users {
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.table-users h2 {
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.input-group {
+    float: right;
+    width: 341px;
+}
+
+.table-users-search .input-group input {
+    width: 300px !important;
+}
+
+.table-users tbody a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.table-users tbody tr th, td {
+    padding-top: 20px !important;
+}
+
+.table-users .image {
+    padding-top: 8px !important;
+}
+
+.table-users .image img {
+    border-radius: 100%;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+
+.author {
+    font-size: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 95%;
+}
+
+.author a {
+    margin-left: 3px;
+}
+
+@media (max-width: 995px) {
+    .table-users-search .input-group {
+        width: 100%;
+    }
+}
+
+@media (max-width: 362px) {
+    .table-users-search .input-group input {
+        width: 87% !important;
+    }
+    .table-users-search .input-group button {
+        width: 13% !important;
+    }
+}

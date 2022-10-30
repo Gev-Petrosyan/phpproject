@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+nav {
+    background: transparent !important;
+}
+
+nav .navabar-button {
+    float: right !important;
+    border: none !important;
+}
+
+.offcanvas-title {
+    text-transform: capitalize !important;
+}
+
+.table-users {
+    border-radius: 10px 10px 10px 10px;
+    padding: 16px;
+    background-color: white;
+}
+
+.table-users h2 {
+    margin: 20px;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.table-users-search .input-group {
+    margin: auto;
+    width: 100%;
+    border-bottom: 2px solid #6a93cb;
+}
+
+.table-users-search input {
+    width: 300px !important;
+    border: none;
+}
+
+.input-group button {
+    border-radius: 5px 5px 5px 5px !important;
+    color: #6a93cb;
+    border: none;
+}
+
+.input-group button:hover {
+    color: #6a93cb !important;
+    background-color: white !important;
+}
+
+.table tr {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.td-buttons a {
+    margin-left: 20px;
+}
+
+.td-buttons input {
+    border: 2px solid #6a93cb;
+    width: 20px;
+    height: 20px;
+}
+
+.td-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.td-buttons a i {
+    color: #6a93cb;
+    font-size: 18px;
+}
+
+.table-users {
+    max-height: 85vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.table-users::-webkit-scrollbar {
+    width: 5px;
+	background-color: transparent;
+}
+
+.table-users::-webkit-scrollbar-thumb {
+	background: #848484;
+	border-radius: 20px;
+}
+
+@media (max-width: 992px) {
+    .td-buttons {
+        width: 150px !important;
+    }
+    .table tr {
+        padding: 10px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .td-buttons {
+        width: 120px !important;
+    }
+}
+
+@media (max-width: 505px) {
+    .td-buttons a i {
+        font-size: 15px;
+    }
+    .td-buttons {
+        width: 110px !important;
+    }
+    .td-buttons input {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .td-buttons a {
+        margin-left: 10px;
+    }
+    .td-buttons {
+        width: 105px !important;
+    }
+}

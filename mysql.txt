@@ -1,0 +1,7 @@
+Database - "oop_login_register"
+tables
+users(`id`, `username`, `password`, `gender`, `level`, `image`)
+key_codes(`id`, `key_code`, `key_level`)
+messages(`id`, `sender_message`, `receiver_message`, `message`)
+lists(`id`, `name`, `date`)
+todos(`id`, `list`, `todo`, `checkbox`)
